@@ -24,3 +24,8 @@ processes, data and documents.
    because the web container is build.
 1. Call the configured URL in your browser which starts the setup.
 
+You can use the default database credentials:
+- Host: `db`
+- Database name: `db`
+- Username: `db`
+- Password: `db`
