@@ -10,7 +10,10 @@ RUN apt-get update && \
 ### Install SourceGuardian PHP module
 ARG IXED=ixed.$PHP_VERSION.lin
 ARG IXED_PATH=$LIB_FOLDER/$IXED
-RUN wget "https://www.sourceguardian.com/loaders/download.php?d=linux-x86_64&ixed=$IXED" -O $IXED_PATH
+RUN wget \
+    --user-agent="Mozilla/5.0 (X11; Linux i686; rv:93.0) Gecko/20100101 Firefox/93.0" \
+    "https://www.sourceguardian.com/loaders/download.php?d=linux-x86_64&ixed=$IXED" \
+    -O $IXED_PATH
 RUN echo [sourceguardian] > /etc/php/$PHP_VERSION/mods-available/sourceguardian.ini && \
     echo extension=$IXED_PATH >> /etc/php/$PHP_VERSION/mods-available/sourceguardian.ini
 RUN phpenmod -v $PHP_VERSION sourceguardian
