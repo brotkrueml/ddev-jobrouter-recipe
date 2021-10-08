@@ -10,4 +10,7 @@ local PHP development environments up and running in minutes.
 [JobRouter®](https://www.jobrouter.com/) is a scalable digitisation platform which links
 processes, data and documents.
 
-- [Configuration for JobRouter® 5.1](jobrouter-5.1/CONFIG.md)
+ddev configuration for
+
+- [JobRouter® 5.1](jobrouter-5.1/CONFIG.md)
+- [JobRouter® 5.2](jobrouter-5.2/CONFIG.md)
