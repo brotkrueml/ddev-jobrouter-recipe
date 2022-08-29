@@ -25,5 +25,5 @@ You can use the default database credentials:
 - Password: `db`
 
 > If you want to use ElasticSearch, you can follow this 
-> [recipe](https://github.com/drud/ddev-contrib/tree/master/docker-compose-services/elasticsearch).
+> [recipe](https://github.com/drud/ddev-elasticsearch).
 > Please also refer to the relevant section in the JobRouter® installation manual.
