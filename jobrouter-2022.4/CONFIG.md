@@ -1,4 +1,4 @@
-# Use JobRouter® 2022.3 with ddev
+# Use JobRouter® 2022.4 with ddev
 
 **Note:** This recipe uses JobRouter® 2022.4 without the Windows services by now. This
 is sufficient for a development system, as you can start instances via the simulator,
