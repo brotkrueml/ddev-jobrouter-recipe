@@ -12,9 +12,10 @@ license file for using this installation.
    You can find an example configuration file in the corresponding JobRouter® version folder.
 2. Copy the content of the [according JobRouter® version](.) from this repository into your `.ddev` folder.
 3. Unpack the JobRouter® zip installation file into the `public` folder.
-4. Start the Docker containers with `ddev start`. The first start can last some minutes
+4. Rename `public/.htaccess-jobrouter` to `public/.htaccess`
+5. Start the Docker containers with `ddev start`. The first start can last some minutes
    because the web container is build.
-5. Call the configured URL in your browser which starts the setup.
+6. Call the configured URL in your browser which starts the setup.
 
 You can use the default database credentials:
 - Host: `db`
