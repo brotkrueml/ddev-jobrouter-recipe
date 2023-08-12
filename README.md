@@ -12,6 +12,7 @@ processes, data and documents.
 
 ddev configuration for
 
+- [JobRouter® 2023.2](jobrouter-2023.2/CONFIG.md)
 - [JobRouter® 2023.1](jobrouter-2023.1/CONFIG.md)
 - [JobRouter® 2022.4](jobrouter-2022.4/CONFIG.md)
 - [JobRouter® 2022.3](jobrouter-2022.3/CONFIG.md)
